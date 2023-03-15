@@ -1,0 +1,2 @@
+#!/bin/bash
+java --module-path "javafx-sdk-19\lib" --add-modules javafx.controls,javafx.fxml,javafx.media,javafx.graphics --add-exports javafx.base/com.sun.javafx.event=ALL-UNNAMED -jar KnightMove-updated-0.0.1-SNAPSHOT-jar-with-dependencies.jar

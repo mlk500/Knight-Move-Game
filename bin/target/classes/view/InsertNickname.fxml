@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="1391.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.InsertNicknameController">
+   <children>
+      <ImageView fitHeight="804.0" fitWidth="1442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/nickNameBackground.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Nickname" alignment="CENTER" layoutX="354.0" layoutY="322.0" onAction="#NicknameAction" opacity="0.75" prefHeight="160.0" prefWidth="615.0" promptText="NICK NAME" style="-fx-background-color: white; -fx-background-radius: 50;">
+         <font>
+            <Font name="Aharoni Bold" size="78.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="203.0" fitWidth="251.0" layoutX="154.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/horseGifForNickNamePage.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="Ok" layoutX="623.0" layoutY="540.0" mnemonicParsing="false" onAction="#OkAction" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: transparent;" />
+   </children>
+</AnchorPane>

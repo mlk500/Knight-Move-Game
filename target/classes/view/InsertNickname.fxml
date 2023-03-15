@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="976.0" styleClass="InsertNickname" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.InsertNicknameController">
+   <children>
+      <TextField fx:id="Nickname" alignment="CENTER" layoutX="293.0" layoutY="236.0" opacity="0.75" prefHeight="74.0" prefWidth="390.0" promptText="NICK NAME" style="-fx-background-color: white; -fx-background-radius: 50;">
+         <font>
+            <Font name="Aharoni Bold" size="42.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="145.0" fitWidth="114.0" layoutX="179.0" layoutY="208.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/horseGifForNickNamePage.gif" />
+         </image>
+      </ImageView>
+      <Button fx:id="Ok" layoutX="385.0" layoutY="361.0" mnemonicParsing="false" onAction="#OkAction" prefHeight="120.0" prefWidth="190.0" style="-fx-background-color: transparent;" />
+      <Button mnemonicParsing="false" onAction="#BackToMenu" prefHeight="58.0" prefWidth="228.0" text="Back To Menu">
+         <font>
+            <Font name="Bell MT Bold" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

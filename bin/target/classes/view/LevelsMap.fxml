@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="1391.0" styleClass="LevelsMap" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.levelsMapController">
+   <children>
+      <ImageView fitHeight="802.0" fitWidth="1442.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/LevelsMapBackground.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="Level1" layoutX="1147.0" layoutY="574.0" mnemonicParsing="false" onAction="#Level1Action" prefHeight="153.0" prefWidth="204.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 1" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="38.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="Level2" layoutX="862.0" layoutY="349.0" mnemonicParsing="false" onAction="#Level2Action" prefHeight="162.0" prefWidth="185.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 2" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="Level3" layoutX="413.0" layoutY="430.0" mnemonicParsing="false" onAction="#Level3Action" prefHeight="162.0" prefWidth="185.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 3" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="153.55" radius="70.54" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="Level4" layoutX="44.0" layoutY="90.0" mnemonicParsing="false" onAction="#Level4Action" prefHeight="162.0" prefWidth="185.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 4" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,91 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.MainMenu{
+-fx-background-image:url('/images/mainMenu_BG.jpg');
+-fx-background-size:cover;	
+}
+
+.historyTable{
+-fx-background-image:url('/images/TableBackground.gif');
+-fx-background-size:cover;	
+}
+.Menu{
+-fx-background-image:url('/images/MenuBackground.jpg');
+-fx-background-size:cover;	
+}
+.Level1{
+-fx-background-image:url('/images/levels1Background.jpg');
+-fx-background-size:cover;	
+}
+.Level2{
+-fx-background-image:url('/images/levels2Background.jpg');
+-fx-background-size:cover;	
+}
+.Level3{
+-fx-background-image:url('/images/levels3Background.jpg');
+-fx-background-size:cover;	
+}
+.Level4{
+-fx-background-image:url('/images/levels4Background.jpg');
+-fx-background-size:cover;	
+}
+.LevelsMap{
+-fx-background-image:url('/images/LevelsMapBackground.jpg');
+-fx-background-size:cover;	
+}
+
+.QuestionsDisplay{
+-fx-background-image:url('/images/mainMenu_BG.jpg');
+-fx-background-size:cover;	
+}
+
+.button-green{
+    -fx-background-color: #EBC95E;
+    -fx-background-radius: 50;
+}
+
+.transparent{
+	-fx-background-color: rgba(0,0,0,0);
+}
+.root {
+  -fx-background-color: #ffffff7f ;
+}
+
+.root HBox, .root .scroll-pane, .root .scroll-pane .viewport {
+  -fx-background-color: transparent ;
+}
+
+.white-background{
+    -fx-background-color: #fff;
+}
+
+.level-button-layout{
+    -fx-background-radius: 0 50 50 50;
+}
+
+.light-gray-background{
+    -fx-background-color: F3F3F3;
+}
+.QuestionScene{
+-fx-background-image:url('/images/QeustionSceneBackground.jpg');
+-fx-background-size:cover;	
+}
+
+.InsertNickname{
+-fx-background-image:url('/images/nickNameBackground.jpg');
+-fx-background-size:cover;	
+}
+
+.EndGame{
+-fx-background-image:url('/images/base.png');
+-fx-background-size:cover;	
+}
+
+.PopQuestion{
+-fx-background-image:url('/images/base.png');
+-fx-background-size:cover;	
+}
+
+.base{
+-fx-background-image:url('/images/base.png');
+-fx-background-size:cover;	
+}

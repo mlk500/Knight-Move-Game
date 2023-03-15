@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="976.0" styleClass="LevelsMap" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.LevelsMapController">
+   <children>
+      <Button fx:id="Level1" layoutX="800.0" layoutY="429.0" mnemonicParsing="false" onAction="#Level1Action" prefHeight="63.0" prefWidth="159.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 1" textFill="WHITE">
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button fx:id="Level2" layoutX="577.0" layoutY="219.0" mnemonicParsing="false" onAction="#Level2Action" prefHeight="162.0" prefWidth="185.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 2" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="Level3" layoutX="276.0" layoutY="312.0" mnemonicParsing="false" onAction="#Level3Action" prefHeight="92.0" prefWidth="159.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 3" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="153.55" radius="70.54" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="Level4" layoutX="24.0" layoutY="45.0" mnemonicParsing="false" onAction="#Level4Action" prefHeight="153.0" prefWidth="150.0" style="-fx-background-radius: 200; -fx-background-color: transparent;" text="Level 4" textFill="WHITE">
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="4.76">
+               <bumpInput>
+                  <Shadow blurType="GAUSSIAN" color="#ffffff6b" height="176.49" radius="76.275" width="130.61" />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+         <font>
+            <Font name="Kristen ITC" size="30.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#BackToMenu" prefHeight="44.0" prefWidth="159.0" text="Back To Menu">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button layoutX="159.0" mnemonicParsing="false" onAction="#UpdateNickName" prefHeight="44.0" prefWidth="214.0" text="Update NickName">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

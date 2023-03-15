@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="793.0" prefWidth="1391.0" styleClass="Menu" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MenuController">
+   <children>
+      <Button fx:id="play" layoutX="9.0" layoutY="100.0" mnemonicParsing="false" onAction="#PlayAction" opacity="0.85" prefHeight="78.0" prefWidth="336.0" style="-fx-background-color: #f8f7f4; -fx-border-width: 4; -fx-border-color: #fbf6e7; -fx-border-radius: 40; -fx-background-radius: 40;" text="Play" textAlignment="CENTER" textFill="#c9a539" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Cooper Black" size="40.0" />
+         </font>
+      </Button>
+      <Button fx:id="Instructions" layoutX="3.0" layoutY="263.0" mnemonicParsing="false" onAction="#InstructionsAction" opacity="0.85" prefHeight="78.0" prefWidth="336.0" style="-fx-background-color: #f8f7f4; -fx-border-color: #fbf6e7; -fx-border-radius: 40; -fx-background-radius: 40; -fx-border-width: 4;" text="Instructions" textAlignment="CENTER" textFill="#c9a539">
+         <effect>
+            <SepiaTone level="0.1" />
+         </effect>
+         <font>
+            <Font name="Cooper Black" size="38.0" />
+         </font>
+      </Button>
+      <Button fx:id="QuestionWizard" layoutX="3.0" layoutY="417.0" mnemonicParsing="false" onAction="#QuestionWizardAction" opacity="0.85" prefHeight="71.0" prefWidth="328.0" style="-fx-background-color: #f8f7f4; -fx-border-radius: 40; -fx-background-radius: 40; -fx-border-color: #fbf6e7;" text="Question Wizard" textFill="#c9a539" wrapText="true">
+         <font>
+            <Font name="Cooper Black" size="33.0" />
+         </font>
+      </Button>
+      <Button fx:id="Exit" layoutX="3.0" layoutY="561.0" mnemonicParsing="false" onAction="#ExitAction" opacity="0.85" prefHeight="78.0" prefWidth="336.0" style="-fx-background-color: #f8f7f4; -fx-border-color: #fbf6e7; -fx-border-radius: 40; -fx-background-radius: 40; -fx-border-width: 4;" text="Exit" textAlignment="CENTER" textFill="#c9a539">
+         <font>
+            <Font name="Cooper Black" size="41.0" />
+         </font>
+      </Button>
+      <TableView layoutX="963.0" layoutY="106.0" opacity="0.75" prefHeight="508.0" prefWidth="426.0" style="-fx-background-radius: 10;">
+         <columns>
+            <TableColumn fx:id="NickName" prefWidth="103.0" style="-fx-background-color: #c9a539;">
+               <graphic>
+                  <Label prefHeight="69.0" prefWidth="115.0" text="Nick Name" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <font>
+                        <Font name="Cooper Black" size="24.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </TableColumn>
+            <TableColumn fx:id="Time" minWidth="0.0" prefWidth="84.0" style="-fx-background-color: #7c7973;">
+               <graphic>
+                  <Label prefHeight="67.0" prefWidth="133.0" text="Time" textFill="WHITE">
+                     <effect>
+                        <Glow level="0.97" />
+                     </effect>
+                     <font>
+                        <Font name="Cooper Black" size="24.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </TableColumn>
+            <TableColumn fx:id="TotalScore" prefWidth="140.0" style="-fx-background-color: #c9a539;">
+               <graphic>
+                  <Label prefHeight="89.0" prefWidth="115.0" text="Total Score" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+                     <effect>
+                        <Glow level="1.0" />
+                     </effect>
+                     <font>
+                        <Font name="Cooper Black" size="26.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </TableColumn>
+            <TableColumn fx:id="Level" minWidth="0.0" prefWidth="98.0" style="-fx-background-color: #7c7973;">
+               <graphic>
+                  <Label prefHeight="44.0" prefWidth="125.0" text="Level" textFill="WHITE">
+                     <effect>
+                        <Glow level="0.0" />
+                     </effect>
+                     <font>
+                        <Font name="Cooper Black" size="26.0" />
+                     </font>
+                  </Label>
+               </graphic>
+            </TableColumn>
+         </columns>
+      </TableView>
+      <ImageView fitHeight="395.0" fitWidth="516.0" layoutX="658.0" layoutY="100.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.41" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/spotlight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="395.0" fitWidth="516.0" layoutX="370.0" layoutY="100.0" opacity="0.41" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/spotlight.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="454.0" fitWidth="599.0" layoutX="367.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/avatar_gif_talk.gif" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

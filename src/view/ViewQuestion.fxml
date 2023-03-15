@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="559.0" prefWidth="1007.0" styleClass="base" stylesheets="@application.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="questionTxt" prefHeight="74.0" prefWidth="953.0" promptText="Enter the question here">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Bell MT" size="13.0" />
+               </font>
+            </TextField>
+            <GridPane prefHeight="226.0" prefWidth="977.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="20.0" />
+               </VBox.margin>
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="answer1Txt" prefHeight="87.0" prefWidth="462.0" promptText="Answer 1" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Bell MT" size="13.0" />
+                           </font>
+                        </TextField>
+                        <CheckBox fx:id="answer1Check" mnemonicParsing="false" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="10.0" top="30.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                     <children>
+                        <TextField fx:id="answer3Txt" prefHeight="87.0" prefWidth="462.0" promptText="Answer 3" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Bell MT" size="13.0" />
+                           </font>
+                        </TextField>
+                        <CheckBox fx:id="answer3Check" mnemonicParsing="false" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="10.0" top="30.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS">
+                     <children>
+                        <TextField fx:id="answer2Txt" prefHeight="87.0" prefWidth="462.0" promptText="Answer 2" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Bell MT" size="13.0" />
+                           </font>
+                        </TextField>
+                        <CheckBox fx:id="answer2Check" mnemonicParsing="false" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="10.0" top="30.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1">
+                     <children>
+                        <TextField fx:id="answer4Txt" prefHeight="87.0" prefWidth="462.0" promptText="Answer 4" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Bell MT" size="13.0" />
+                           </font>
+                        </TextField>
+                        <CheckBox fx:id="answer4Check" mnemonicParsing="false" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="10.0" top="30.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                     </children>
+                  </HBox>
+               </children>
+            </GridPane>
+            <HBox alignment="CENTER" prefHeight="111.0" prefWidth="1007.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="97.0" prefWidth="216.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="97.0" prefWidth="218.0">
+                           <children>
+                              <Label alignment="TOP_LEFT" contentDisplay="CENTER" nodeOrientation="LEFT_TO_RIGHT" text="Question's Difficulty">
+                                 <VBox.margin>
+                                    <Insets bottom="10.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Bell MT" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="difficultyLbl" prefHeight="35.0" prefWidth="193.0" text="Difficulty" wrapText="true">
+                                 <font>
+                                    <Font name="Bell MT" size="13.0" />
+                                 </font></Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER_LEFT" prefHeight="97.0" prefWidth="191.0">
+                           <children>
+                              <Label text="Team ">
+                                 <padding>
+                                    <Insets bottom="10.0" />
+                                 </padding>
+                                 <font>
+                                    <Font name="Bell MT" size="13.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="teamLbl" prefHeight="35.0" prefWidth="193.0" text="Team" wrapText="true">
+                                 <font>
+                                    <Font name="Bell MT" size="13.0" />
+                                 </font></Label>
+                           </children>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="BOTTOM_CENTER" prefHeight="52.0" prefWidth="1007.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </HBox>
+   </bottom>
+   <top>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="backBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#BackBtn" prefHeight="66.0" prefWidth="89.0" text="Back">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Bell MT" size="18.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" contentDisplay="CENTER" lineSpacing="10.0" prefHeight="100.0" prefWidth="902.0" text="View Question">
+               <font>
+                  <Font name="Bell MT" size="40.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
