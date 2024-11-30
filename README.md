@@ -100,5 +100,8 @@ chmod +x run.sh
 ## 🎮 Gameplay Demo
 
 Watch a brief demonstration of the game:
-<video src="https://raw.githubusercontent.com/mlk500/Knight-Move-Game/master/gameplay-video/knights-move-vid.mov" controls="controls" style="max-width: 730px;">
-</video>
+
+https://github.com/user-attachments/assets/6a40c71c-48b8-4b61-b4b2-9c91d0e71a5a
+
+
+
